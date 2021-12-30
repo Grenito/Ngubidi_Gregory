@@ -1,3 +1,4 @@
+HEAD
 /*Head*/
 
 body {
@@ -92,4 +93,323 @@ button:hover {
 button:active {
   background: linear-gradient(#f16cfd, #b454d1);
   box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
+}
+/*Head*/
+
+body {
+    font: normal 1.1em 'Roboto','Shrikhand', sans-serif;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    object-fit: cover;
+}
+figcaption {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+figcaption p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+article {
+    width: 44%;
+}
+/*Présentation restaurants*/
+
+/*Header*/
+
+#logo {
+    text-align: center;
+    margin: 30px 0;
+}
+.localisation {
+    display: flex;
+    flex-direction: row;
+    border: transparent;
+    background-color: rgb(228, 228, 228);
+    box-shadow: rgb(200, 200, 200) 2px -5px 9px -3px;
+    justify-content: center;
+    align-items: center;
+}
+.localisation i {
+    margin: 0 20px;
+    font-size: 1.1em;
+}
+.localisation p {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px transparent;
+    background-color: rgb(243, 243, 243);
+}
+.presentation h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.presentation h4 {
+    color: grey;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 5px;
+}
+.presentation button {
+    margin: auto;
+    margin-bottom: 35px;
+    width: 270px;
+    height: 70px;
+    color: white;
+    border: solid transparent 1px;
+    border-radius: 80px;
+    background: linear-gradient(#f16cfd, #b454d1);
+    box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 300ms 150ms;
+}
+button:hover {
+    background: linear-gradient(#f5aafb, #de70ff);
+    box-shadow: 1px 5px 21px -1px rgba(0, 0, 0, 0.38);   
+    cursor: pointer;          
+}
+  
+button:active {
+  background: linear-gradient(#f16cfd, #b454d1);
+  box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
+}
+/*Filtres*/
+
+        
+.fonctionnement {
+
+    width: 50%;
+    margin: auto;
+}
+
+.filtre ul {
+
+    width: 100%;
+}
+    
+.titrefiltres {
+
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin: 30px 35px 20px 25px;                     
+}
+
+.filtrediv {
+        
+    position: relative;
+    margin: 30px 20px;
+    width: 70%;
+    height: 70px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid transparent 1px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
+    font-weight: bold;
+}
+
+.number {
+            
+    text-align: center;
+    padding-right: 5px;
+    position: absolute;
+    left: -20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 20px;
+    height: 26px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    background-color: #9356DC;
+            
+}
+
+.filtre i {
+
+    color: grey;
+    margin-left: 20px;
+    font-size: 1.7em;
+}
+
+.filtrecaption {
+
+            
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.filtrediv:hover {
+
+    background-color: #e6c4f0;
+    cursor: pointer;
+}
+
+
+/*Restaurants*/
+        
+#restaurants {
+
+    margin: auto;
+    max-width: 1350px;
+    width: 60%;
+    border: solid 1px transparent;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+        
+.article1 {
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#restaurants h2 {
+
+    position: relative;
+    font-size: 1.6em;
+    width: 30%;
+    left: 120px;
+    top: 20px;
+}
+
+#restaurants figure {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px 3px #D8D8D8;
+}
+
+#restaurants figure div {
+
+    width: 100%;
+}
+
+#restaurants img {
+
+    width: 100%;
+    margin: 0;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.new {
+
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    padding: 15px;
+    border: 1px solid transparent;
+    color: #579484 ;
+    background-color: #99E2D0;
+    font-weight: bolder;
+}
+
+#restaurants figcaption {
+
+    position: relative;
+    font-size: 1.1em;
+    margin: 8px;
+    width: 100%;
+}
+
+#restaurants .far {
+
+    font-size: 1.8em;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+#restaurants .heartcolor {
+
+    font-size: 1.8em;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+    
+
+/*Footer*/
+        
+footer {
+
+    border: 1px solid transparent;
+    background-color: rgb(42, 40, 40);
+    width: 100%;
+}
+
+nav {
+
+    margin: 15px;
+    font-size: 0.8;
+}
+
+footer h3 {
+
+    color: white;
+}
+
+footer li {
+
+        
+    align-items: center;
+    font-weight: bold;
+
+}
+
+footer a {
+
+    color: white;
+    display: flex;
+    margin: 0;
+}
+
+
+.ustensil i {
+
+    margin: 15px 15px 0 0;
+}
+
+.partenaire i {
+
+    margin: 15px 15px 0 0;
+}
+        
+
+footer h3 {
+            
+    font-family: 'Shrikhand', sans-serif;
 }
