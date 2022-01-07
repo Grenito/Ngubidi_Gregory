@@ -374,7 +374,7 @@ footer {
 nav {
 
     margin: 15px;
-    font-size: 0.8;
+    font-size: 0.8em;
 }
 
 footer h3 {
@@ -1120,9 +1120,7 @@ figure:hover .circle {
             .filtre {
 
                 display: flex;
-                flex-direction: column;
-                align-items: space-between;
-               
+                flex-direction: column; 
             }
         
             .titrefiltres {
@@ -1200,16 +1198,12 @@ figure:hover .circle {
                 position: relative;
                 left: 10px;
             }
-            
-            
             #restaurants .far {
-
-                    font-size: 1.8em;
-                    position: absolute;
-                    bottom: 25px;
-                    right: 25px;
-            }
-                
+                font-size: 1.8em;
+                position: absolute;
+                bottom: 25px;
+                right: 25px;
+            }  
             #restaurants .heartcolor {
                 
                     font-size: 1.8em;
@@ -1285,7 +1279,7 @@ figure:hover .circle {
             nav {
 
                 margin: 15px;
-                font-size: 0.8;
+                font-size: 0.8em;
                 display: flex;
             }
 
@@ -1451,7 +1445,6 @@ figure:hover .circle {
                 display: flex;
                 padding: 15px 0;
                 flex-direction: row;
-                justify-items: space-between;
                 align-items: center;
                 border: solid transparent 1px;
                 border-radius: 15px;
@@ -1516,7 +1509,7 @@ figure:hover .circle {
             .commander {
 
                 width: 50%;
-                margin: none;
+                margin: 0;
                 border: solid transparent 1px;
                 border-radius: 80px;
                 background: linear-gradient(#f16cfd, #b454d1);
@@ -1543,7 +1536,7 @@ figure:hover .circle {
 
         .heartcolor {
 
-            bottom: px;
+     
         }
     
 } 
