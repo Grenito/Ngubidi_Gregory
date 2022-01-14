@@ -474,6 +474,7 @@ footer h3 {
     justify-content: space-between;
     text-align: center;
     width: 100%;
+    align-items: center;
 }
 
 .menu .far {
@@ -767,7 +768,7 @@ footer h3 {
 
         100% {
 
-            transform: scaleY(1);
+            transform: translateY(1);
             opacity: 1;
         }
     }
