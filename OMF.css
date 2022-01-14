@@ -779,7 +779,7 @@ footer h3 {
 .pl {
 
     animation: plats 2.5s;
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 
         
@@ -805,8 +805,8 @@ footer h3 {
        
 .des {
 
-    animation: desserts 4s;
-    animation-delay: 3s;
+    animation: desserts 5s;
+    animation-delay: 5s;
 }
 
    @keyframes desserts {
@@ -1533,11 +1533,6 @@ figure:hover .circle {
 
             height: 70px;
             
-        }
-
-        .heartcolor {
-
-     
         }
     
 } 
