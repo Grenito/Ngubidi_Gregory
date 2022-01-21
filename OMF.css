@@ -212,8 +212,6 @@ button:active {
 }
 
 .filtrediv {
-        
-    position: relative;
     margin: 30px 20px;
     width: 70%;
     height: 70px;
@@ -470,7 +468,6 @@ footer h3 {
 .titre {
 
     display: flex;
-    position: relative;
     justify-content: space-between;
     text-align: center;
     width: 100%;
@@ -680,14 +677,13 @@ footer h3 {
     }
 
 
-/* Loading... */
-
-        
+/* Loading... */    
 .load {
 
     display: flex;
     justify-content: center;
     align-content: center;
+    background: black;
 }
 
 .loader {
@@ -757,6 +753,7 @@ footer h3 {
 .ent {
 
     animation: entree 2.5s;
+    transform-origin: bottom;
 }
 
    @keyframes entree {
@@ -781,6 +778,7 @@ footer h3 {
 
     animation: plats 2.5s;
     animation-delay: 3s;
+    transform-origin: bottom;
 }
 
         
@@ -807,7 +805,8 @@ footer h3 {
 .des {
 
     animation: desserts 5s;
-    animation-delay: 5s;
+    animation-delay: 3s;
+    transform-origin: bottom;
 }
 
    @keyframes desserts {
