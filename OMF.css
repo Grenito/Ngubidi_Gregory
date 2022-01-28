@@ -2,7 +2,7 @@ HEAD
 /*Head*/
 
 body {
-    font: normal 1.1em 'Roboto','Shrikhand', sans-serif;
+    font: normal 1.1em 'Roboto', sans-serif;
     margin: 0;
 }
 ul {
@@ -98,7 +98,7 @@ button:active {
 /*Head*/
 
 body {
-    font: normal 1.1em 'Roboto','Shrikhand', sans-serif;
+    font: normal 1.1em 'Roboto', sans-serif;
     margin: 0;
 }
 ul {
@@ -224,13 +224,13 @@ button:active {
     background-color: rgb(238, 238, 238);
     box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
     font-weight: bold;
+    position: relative;
 }
 
 .number {
             
     text-align: center;
     padding-right: 5px;
-    position: absolute;
     left: -20px;
     font-weight: bold;
     font-size: 1.2em;
@@ -240,6 +240,7 @@ button:active {
     border: 1px solid transparent;
     border-radius: 100%;
     background-color: #9356DC;
+    position: absolute;
             
 }
 
@@ -471,24 +472,8 @@ footer h3 {
     justify-content: space-between;
     text-align: center;
     width: 100%;
-    align-items: center;
 }
 
-.menu .far {
-
-    font-size: 1.8em;
-    position: absolute;
-    bottom: 1px;
-    right: 25px;
-}
-
-.menu .heartcolor {
-
-    font-size: 1.8em;
-    position: absolute;
-    bottom: 1px;
-    right: 25px;
-}
 
 .titre h3 {
 
@@ -519,7 +504,7 @@ footer h3 {
 .entrees h5 {
 
     margin-left:  20px;
-    border-bottom: solid 1px #99E2D0;
+    border-bottom: solid 3px #99E2D0;
     width: 14%;
     padding-bottom: 2px;
 }
@@ -527,7 +512,7 @@ footer h3 {
 .plats h5 {
 
     margin-left:  20px;
-    border-bottom: solid 1px #99E2D0;
+    border-bottom: solid 3px #99E2D0;
     width: 9%;
     padding-bottom: 2px;
 
@@ -536,7 +521,7 @@ footer h3 {
 .desserts h5 {
 
     margin-left:  20px;
-    border-bottom: solid 1px #99E2D0;
+    border-bottom: solid 3px #99E2D0;
     width: 15%;
     padding-bottom: 2px;
 }
@@ -613,7 +598,6 @@ footer h3 {
             
     cursor: pointer;
     font-size: 1.8em;
-    position: absolute;
 }
         
 .heart2:hover .far {
@@ -680,10 +664,13 @@ footer h3 {
 /* Loading... */    
 .load {
 
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-content: center;
     background: black;
+    /* flex-grow: 1; */
+    width: 100%;
+    height: 100%;
 }
 
 .loader {
@@ -760,13 +747,14 @@ footer h3 {
 
         0% {
 
-            transform: scaleY(0);
+            transform: translateY(20px);
+            -webkit-transform: translateY(20px);
         }
 
         100% {
-
-            transform: translateY(1);
+            transform: translateY(0);
             opacity: 1;
+            -webkit-transform: translateY(0);
         }
     }
 
@@ -777,7 +765,7 @@ footer h3 {
 .pl {
 
     animation: plats 2.5s;
-    animation-delay: 3s;
+    animation-delay: 5s;
     transform-origin: bottom;
 }
 
@@ -786,15 +774,16 @@ footer h3 {
     @keyframes plats {
 
         0% {
-            
-            transform: scaleY(0);
+            -webkit-transform: translateY(20px);
+            transform: translateY(0);
         }
 
             
         100% {
                 
-            transform: scaleY(1);
+            transform: translateY(0);
             opacity: 1;
+            -webkit-transform: translateY(0);
         }
     }
 
@@ -804,23 +793,24 @@ footer h3 {
        
 .des {
 
-    animation: desserts 5s;
-    animation-delay: 3s;
+    animation: desserts 2.5s;
+    animation-delay: 5s;
     transform-origin: bottom;
 }
 
    @keyframes desserts {
             
         0% {
-                
-            transform: scaleY(0);
+            -webkit-transform: translateY(20px);    
+            transform: translateY(0);
         }
 
             
         100% {
                 
-            transform: scaleY(1);
+            transform: translateY(0);
             opacity: 1;
+            -webkit-transform: translateY(0);
         }
     }
 
@@ -1369,20 +1359,13 @@ figure:hover .circle {
         .menu .far {
 
             font-size: 1.8em;
-            position: absolute;
-            top: -10px;
-            right: 30px;
         }
         
         .menu .heartcolor {
         
             font-size: 1.8em;
-            position: absolute;
-            top: -10px;
-            right: 30px;
         }
-           
-
+        
            .menu {
                 
             width: 100%;
