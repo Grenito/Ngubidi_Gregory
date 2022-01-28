@@ -664,7 +664,7 @@ footer h3 {
 /* Loading... */    
 .load {
 
-    /* display: flex; */
+    /*display: flex;*/  
     justify-content: center;
     align-content: center;
     background: black;
@@ -739,7 +739,7 @@ footer h3 {
 
 .ent {
 
-    animation: entree 2.5s;
+    animation : entree 2.5s;
     transform-origin: bottom;
 }
 
@@ -747,14 +747,14 @@ footer h3 {
 
         0% {
 
-            transform: translateY(20px);
-            -webkit-transform: translateY(20px);
+            transform: translateY(0);
+            
         }
 
         100% {
-            transform: translateY(0);
+            transform: translateY(1);
             opacity: 1;
-            -webkit-transform: translateY(0);
+            
         }
     }
 
@@ -774,16 +774,16 @@ footer h3 {
     @keyframes plats {
 
         0% {
-            -webkit-transform: translateY(20px);
+            
             transform: translateY(0);
         }
 
             
         100% {
                 
-            transform: translateY(0);
+            transform: translateY(1);
             opacity: 1;
-            -webkit-transform: translateY(0);
+            
         }
     }
 
@@ -801,16 +801,16 @@ footer h3 {
    @keyframes desserts {
             
         0% {
-            -webkit-transform: translateY(20px);    
+            
             transform: translateY(0);
         }
 
             
         100% {
                 
-            transform: translateY(0);
+            transform: translateY(1);
             opacity: 1;
-            -webkit-transform: translateY(0);
+            
         }
     }
 
@@ -1413,7 +1413,7 @@ figure:hover .circle {
          
             .plats {
 
-                display: flex;
+                
                 flex-direction: column;
                 width: 100%;
                 justify-content: center;
@@ -1459,19 +1459,19 @@ figure:hover .circle {
             
             .ent {
 
-                display: flex;
+                
                 flex-direction: column;
             }
 
             .pl {
 
-                display: flex;
+                
                 flex-direction: column;
             }
 
             .des {
 
-                display: flex;
+                
                 flex-direction: column;
             }
 
