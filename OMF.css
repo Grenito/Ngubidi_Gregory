@@ -737,84 +737,65 @@ footer h3 {
 /* Entrées*/
 
 
-.ent {
+.ent,.pl,.des {
 
-    animation : entree 2.5s;
+    animation : 2s;
+    animation-delay: 4s;
     transform-origin: bottom;
 }
-
-   @keyframes entree {
-
-        0% {
-
-            transform: translateY(0);
+@keyframes desserts {
             
-        }
-
-        100% {
-            transform: translateY(1);
-            opacity: 1;
-            
-        }
+    0% {
+        
+        transform: translateY(100px);
+opacity: 0
     }
 
-
-/*Plats*/
-
         
-.pl {
-
-    animation: plats 2.5s;
-    animation-delay: 5s;
-    transform-origin: bottom;
+    100% {
+            
+        transform: translateY(1);
+        opacity: 1;
+        
+    }
 }
 
-        
-        
-    @keyframes plats {
 
-        0% {
-            
-            transform: translateY(0);
-        }
 
-            
-        100% {
-                
-            transform: translateY(1);
-            opacity: 1;
-            
-        }
+@keyframes plats {
+
+    0% {
+        
+        transform: translateY(0);
     }
 
-
-/*Desserts*/
-
-       
-.des {
-
-    animation: desserts 2.5s;
-    animation-delay: 5s;
-    transform-origin: bottom;
+        
+    100% {
+            
+        transform: translateY(1);
+        opacity: 1;
+        
+    }
 }
 
-   @keyframes desserts {
-            
-        0% {
-            
-            transform: translateY(0);
-        }
 
-            
-        100% {
-                
-            transform: translateY(1);
-            opacity: 1;
-            
-        }
+@keyframes entree {
+
+    0% {
+
+        transform: translateY(0);
+        opacity: 0;
     }
 
+    100% {
+        transform: translateY(1);
+        opacity: 1;
+        
+    }
+}
 
+
+  
 /*Coche plats*/
 
 /*Rectangle de fond */
