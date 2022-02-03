@@ -736,63 +736,31 @@ footer h3 {
 
 /* Entrées*/
 
+@keyframes glissade-haut {
 
-.ent,.pl,.des {
-
-    animation : 2s;
-    animation-delay: 4s;
-    transform-origin: bottom;
-}
-@keyframes desserts {
-            
     0% {
-        
+
         transform: translateY(100px);
-opacity: 0
-    }
-
-        
-    100% {
-            
-        transform: translateY(1);
-        opacity: 1;
-        
-    }
-}
-
-
-
-@keyframes plats {
-
-    0% {
-        
-        transform: translateY(0);
-    }
-
-        
-    100% {
-            
-        transform: translateY(1);
-        opacity: 1;
-        
-    }
-}
-
-
-@keyframes entree {
-
-    0% {
-
-        transform: translateY(0);
         opacity: 0;
     }
 
     100% {
-        transform: translateY(1);
+        transform: translateY(0px);
         opacity: 1;
         
     }
 }
+.ent,.pl,.des {
+
+    animation : glissade-haut 2s; 
+    animation-delay: 0,5s;
+    transform-origin: bottom;
+}
+
+
+
+
+
 
 
   
