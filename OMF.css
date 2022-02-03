@@ -753,7 +753,7 @@ footer h3 {
 .ent,.pl,.des {
 
     animation : glissade-haut 2s; 
-    animation-delay: 0,5s;
+    animation-delay: 0.5s;
     transform-origin: bottom;
 }
 
