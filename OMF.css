@@ -752,11 +752,18 @@ footer h3 {
 }
 .ent,.pl,.des {
 
-    animation : glissade-haut 2s; 
-    animation-delay: 0.5s;
+    animation : glissade-haut 2s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
     transform-origin: bottom;
 }
 
+.pl {
+    animation-delay: 0.5s;
+}
+.des{
+    animation-delay: 1s;
+}
 
 
 
