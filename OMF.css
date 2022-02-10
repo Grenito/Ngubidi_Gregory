@@ -120,6 +120,7 @@ figcaption p {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-weight: 300;
 }
 article {
     width: 44%;
@@ -441,7 +442,7 @@ footer h3 {
 
     position: absolute;
     top: 20px;
-    left: 30px;
+    left: 10px;
 }
 
 .vu {
@@ -505,7 +506,7 @@ footer h3 {
 
     margin-left:  20px;
     border-bottom: solid 3px #99E2D0;
-    width: 14%;
+    width: 10%;
     padding-bottom: 2px;
 }
 
@@ -522,7 +523,7 @@ footer h3 {
 
     margin-left:  20px;
     border-bottom: solid 3px #99E2D0;
-    width: 15%;
+    width: 10%;
     padding-bottom: 2px;
 }
     
@@ -577,7 +578,7 @@ footer h3 {
     color: white;
     border: solid transparent 1px;
     border-radius: 80px;
-    background: linear-gradient(#f16cfd, #b454d1);
+    background: linear-gradient(#f16cfd, #b05fdb);
     box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
     font-size: 1.1em;
     font-weight: bold;
@@ -845,8 +846,8 @@ figure:hover .circle {
     .new {
 
        
-        top: -10px;
-        right: 5px;
+        
+        right: 15px;
         padding: 10px;
 
     }
@@ -978,6 +979,7 @@ figure:hover .circle {
 
                 text-align: center;
                 margin: 30px 0;
+                height: 20px;
             }
 
             .localisation {
@@ -1024,18 +1026,19 @@ figure:hover .circle {
                 font-size: 1.1em;
                 text-align: center;
                 margin-top: 5px;
+                font-weight: 300;
             }
 
             .presentation button {
 
                 margin: auto;
                 margin-bottom: 35px;
-                width: 270px;
-                height: 70px;
+                width: 230px;
+                height: 50px;
                 color: white;
                 border: solid transparent 1px;
                 border-radius: 80px;
-                background: linear-gradient(#f16cfd, #b454d1);
+                background: linear-gradient(#f16cfd, #ae80e5);
                 box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
                 font-size: 1.1em;
                 font-weight: bold;
@@ -1061,7 +1064,7 @@ figure:hover .circle {
 
             .fonctionnement {
 
-                width: 80%;
+                width: 100%;
             }
 
             .filtre {
@@ -1088,7 +1091,7 @@ figure:hover .circle {
                 width: 80%;
                 height: 70px;
                 border: solid transparent 1px;
-                border-radius: 5px;
+                border-radius: 1rem;
                 background-color: rgb(238, 238, 238);
                 box-shadow: 1px 5px 18px -1px rgba(118,118,118,0.38);
                 font-weight: bold;
@@ -1194,10 +1197,10 @@ figure:hover .circle {
             .new {
 
                 position: absolute;
-                top: -15px;
-                right: 5px;
+                top: -5px;
+                right: 12px;
                 padding: 10px;
-                font-size: 0.9em;
+                font-size: 0.8em;
                 border: 1px solid transparent;
                 color: #579484 ;
                 background-color: #99E2D0;
